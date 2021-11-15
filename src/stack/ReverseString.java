@@ -8,7 +8,7 @@ public class ReverseString {
     }
 
     public static String reverseString(String s) {
-        Stack<Character> stack = new Stack<Character>();
+        Stack<Character> stack = new Stack<>();
         char[] chars = s.toCharArray();
         for (char c : chars) {
             stack.push(c);
