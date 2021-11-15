@@ -1,6 +1,4 @@
-package LinkedList;
-
-import java.util.List;
+package linkedlist;
 
 public class SinglyLinkedList {
     private ListNode head;
